@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Water Quality Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+    
+</head>
+<body>
+    <div class="form-container rounded App">
+        <form class='bgcolor ' method='post' action='/predict'>
+            <p  class='tiltneon'>Water Quality Prediction</p>
+            <label class='top'></label>
+            <input
+                name="name"
+                type="text"
+                placeholder="pH Value"
+                
+            />
+            <label class='top'></label>
+            <input
+                name="hardness"
+                type="text"
+                placeholder="Hardness"
+                
+            />
+            <label class='top'></label>
+            <input
+                name="solids"
+                type="text"
+                placeholder="Solids"
+                
+            />
+            <label class='top'></label>
+            <input
+                name="Chloramines"
+                type="text"
+                placeholder="Chloramines"
+                
+            />
+            <label class='top'></label>
+            <input
+                name="sulfate"
+                type="text"
+                placeholder="Sulphate"
+                
+            />
+            <label class='top'></label>
+            <input
+                name="conductivity"
+                type="text"
+                placeholder="Conductivity"
+                
+            />
+            <label class='top'></label>
+            <input
+                name="carbon"
+                type="text"
+                placeholder="Organic carbon"
+                
+            />
+            <label class='top'></label>
+            <input
+                name="trihalomethanes"
+                type="text"
+                placeholder="Trihalomethanes"
+                
+            />
+            <label class='top'></label>
+            <input
+                name="turbidity"
+                type="text"
+                placeholder="Turbidity"
+                
+            />
+            <button type="submit" class='rounded'>Predict</button>
+            <br>
+            <br>
+            <h1>Result: {{prediction}}</h1>
+        </form>
+      </div>
+</body>
+</html>

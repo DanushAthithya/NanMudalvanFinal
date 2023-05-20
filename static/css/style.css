@@ -1,0 +1,132 @@
+.App {
+  background: linear-gradient(to top right, #434343 0%, black 100%) !important;
+  min-height: 60vh;
+  text-align: center;
+ 
+
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  border: 2px solid #c300ff;
+  margin-top: 3%;
+  margin-bottom: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+  
+  @media only screen and (min-width: 200px) and (max-width: 768px) {
+    .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background: -webkit-linear-gradient( #053f7e,#000f1f,);
+        border: 2px solid #c300ff;
+        margin-top: 15%;
+        margin-bottom: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: linear-gradient( left,#ffffff,#000f1f,) !important;
+  }
+  
+  .top {
+    color:aliceblue;
+    margin-bottom: 3%;
+    margin-left: -90%;
+    
+  }
+
+ p{
+  color:rgb(4, 215, 191);
+  font-size: 1.7rem;
+  margin-top: -1%;
+  margin-bottom: 0;
+ }
+h1{
+  color:rgb(4, 215, 191);
+}
+  .mtop {
+    color:aliceblue;
+    margin-bottom: 5px;
+    margin-left: -85%;
+    margin-top: 3%;
+  }
+  .ctop {
+    color:aliceblue;
+    margin-bottom: 5px;
+    margin-left: -78%;
+    margin-top: 3%;
+  }
+
+  @media (max-width: 450px) {
+    .top {
+      color:aliceblue;
+      margin-bottom: 3%;
+      margin-left: -80%;
+      margin-top: 3%;
+    }
+  
+   
+  
+    .mtop {
+      color:aliceblue;
+      margin-bottom: 5px;
+      margin-left: -75%;
+      margin-top: 3%;
+    }
+    
+  }
+  
+  input{
+    padding: 25px;
+    border: 2px solid #91edff;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    color: aliceblue;
+  }
+
+  input:focus,
+textarea:focus {
+  background-color: #004765;
+}
+
+input:hover,
+textarea:hover {
+  border: 2px solid#a200ff;
+}
+  
+  button {
+    padding:25px;
+    background-color: #a200ff;
+    color: #fff;
+    border: 2px solid #91edff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+    border: 2px solid #00ff73;
+    padding: 25px;
+  }
+
+  ::placeholder {
+    color: rgb(233, 233, 233);
+    font-size: large;
+  }
+
+  
