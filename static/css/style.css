@@ -1,8 +1,18 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  max-width: 100vw;
+  max-height: 80vh;
+}
 .App {
-  background: linear-gradient(to top right, #434343 0%, black 100%) !important;
+  /* background: linear-gradient(to top right, #1f0f56 0%, black 100%) !important; */
+  /* background-color: rgb(84, 150, 179);  */
+  background-color: #140d42;
   min-height: 60vh;
   text-align: center;
- 
+  opacity: 1;
 
 }
 
@@ -129,4 +139,4 @@ textarea:hover {
     font-size: large;
   }
 
-  
+
