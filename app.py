@@ -37,9 +37,9 @@ def predict():
         prediction = model.predict(input)
         predic=""
         if(prediction[0]==1):
-            predic="Fit"
+            predic="Safe to Drink"
         else:
-            predic="Unifit"
+            predic="Not Safe to Drink"
         return render_template('index.html', prediction=predic)
 
 if __name__ == '__main__':
